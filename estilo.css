@@ -1,0 +1,66 @@
+body{
+    height: 200px;
+    background-image: url(https://hireline.io/blog/wp-content/uploads/2019/12/Aprender-a-programar-Java.jpg);
+    background-size: 100rem;
+}
+.container{
+    display: inline-block;
+}
+.nombre{
+    font-family: 'Rubik Maze', cursive;
+    color: white;
+    text-align: left;
+    font-size: 90px;
+    height: 220px;
+    padding: 3px;
+    margin-bottom: 1px;
+}
+.texto-pre{
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+.card{
+    width: 300px;
+    margin-left: 250px;
+    margin-bottom: 5px;
+    margin-top: 1 px;
+    border: 25px hidden #e6e6e6;
+    box-shadow: 10px 10px 5px 0px rgba(117, 115, 115, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(150, 150, 150, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(75, 75, 75, 0.75);
+}
+.boton{
+    font-family: 'Fira Code', monospace;
+    color:rgba(75, 75, 75, 0.75);
+    border-radius: 20px;
+    margin-left: 300px;
+    height: 50px;
+    width: 120px;
+    padding: 10px 15px;
+    text-align: center;
+     display: inline-block;
+     font-size: 16px;
+      /*margin: 4px 2px;*/
+     -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+.boton {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #313131;
+}
+.boton:hover {
+    background-color: #000000;
+    color: white;
+}
+.boton:visited{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #313131;
+}
